@@ -1,7 +1,7 @@
 # BigQuery CORS Handler
 ## Overview
-1.Send request to API with a dict of queries
->   e.g., `queries={"test": "select * from ___", "test2": "select * from ___", etc...}`
+1. Send request to API with a dict of queries
+>   e.g., `queries={"test": "select * from ___", "test2": "select * from ___", etc...}`  
 2. API runs the query and returns the results with the same keys + resulting data in dict format
 ## Testing
 1. Add a service account `.json` file into`src\api\routers\service_accounts.json`
