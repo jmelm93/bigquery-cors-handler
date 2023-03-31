@@ -1,0 +1,11 @@
+# Server 
+hypercorn==0.14.3
+fastapi==0.85.1
+
+# Google APIs
+google-cloud-bigquery==2.31.0
+google-api-python-client==2.33.0
+
+# Data Analysis
+pandas==1.4.2
+pyarrow==6.0.1
