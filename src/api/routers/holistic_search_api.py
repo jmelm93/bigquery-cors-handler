@@ -78,7 +78,7 @@ async def holistic_search(request: Request, query_request: QueryRequest):
         print('end_time', time.time() - start_time)
         
         # return to frontend
-        return json.dumps(results)
+        return json.dumps(return_dict_obj)
     
     except Exception as e:
         logger.error(e)
